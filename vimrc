@@ -56,13 +56,8 @@ set backspace=indent,eol,start
 " line.
 set autoindent
 
-" This tells Vim to keep a backup copy of a file when overwriting it. But
-" not on the VMS system, since it keeps old versions of files already.
-if has("vms")
-  set nobackup
-else
-  set backup
-endif
+" This tells Vim not to keep a backup copy of a file when overwriting it.
+set nobackup
 
 " Keep 50 commands and 50 search patterns in the history.
 set history=50
