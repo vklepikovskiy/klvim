@@ -23,3 +23,4 @@ Run in VIM:
 - Tomas Restrepo for [Molokai Color Scheme for Vim](https://github.com/tomasr/molokai)
 - Bailey Ling for [Lean & mean status/tabline for vim that's light as air](https://github.com/bling/vim-airline)
 - Tim Pope for [Best Git wrapper for Vim](https://github.com/tpope/vim-fugitive)
+- kien and others for [Full path fuzzy file, buffer, mru, tag, ... finder for Vim](https://github.com/ctrlpvim/ctrlp.vim)
