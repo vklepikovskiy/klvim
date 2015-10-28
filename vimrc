@@ -6,9 +6,6 @@ set nocompatible
 " This sets the number of colors to 256.
 set t_Co=256
 
-" This loads color scheme 'molokai'.
-colorscheme molokai
-
 " This will display a line number in front of every line:
 set number
 
@@ -72,16 +69,19 @@ set showcmd
 " 3. Using indent files.
 filetype plugin indent on
 
-" Manage runtime path using Pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-
 " This makes Vim break text to avoid lines getting longer than 76
 " characters. But only for files that have been detected to be plain text.
 autocmd FileType text setlocal textwidth=76
 
 " This makes Vim always to show the status line of the last window.
 set laststatus=2
+
+" Manage runtime path using Pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
+" This loads color scheme 'molokai'.
+colorscheme molokai
 
 " Airline settings
 if !exists('g:airline_symbols')
