@@ -72,6 +72,10 @@ set showcmd
 " 3. Using indent files.
 filetype plugin indent on
 
+" Manage runtime path using Pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 " This makes Vim break text to avoid lines getting longer than 76
 " characters. But only for files that have been detected to be plain text.
 autocmd FileType text setlocal textwidth=76
