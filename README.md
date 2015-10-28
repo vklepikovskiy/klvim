@@ -13,9 +13,13 @@ $ ln -s ~/klvim/vimrc ~/.vimrc
 
 $ ln -s ~/klvim/vim ~/.vim
 
+$ git submodule init
+
+$ git submodule update
+
 Run in VIM:
 
-:helpt ~/klvim/vim/doc/
+:Helptags
 
 ##Many thanks to
 
