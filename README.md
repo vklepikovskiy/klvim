@@ -35,4 +35,4 @@ Run in VIM:
 - Kyo Nagashima for [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
 - F. Gabriel Gosselin and Simen Owesen-Lein for [vim-twig](https://github.com/lumiliet/vim-twig)
 - Martin Grenfell for [syntastic](https://github.com/scrooloose/syntastic.git), [nerdtree](https://github.com/scrooloose/nerdtree)
-- kien and others for [Full path fuzzy file, buffer, mru, tag, ... finder for Vim](https://github.com/ctrlpvim/ctrlp.vim)
+- Kien Nguyen and others for [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
