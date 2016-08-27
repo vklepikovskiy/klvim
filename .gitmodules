@@ -36,4 +36,4 @@
 	url = https://github.com/hail2u/vim-css3-syntax
 [submodule "vim/bundle/vim-twig"]
 	path = vim/bundle/vim-twig
-	url = https://github.com/evidens/vim-twig.git
+	url = https://github.com/lumiliet/vim-twig.git
