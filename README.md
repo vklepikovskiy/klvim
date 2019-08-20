@@ -1,8 +1,8 @@
-#klvim
+# klvim
 
 My vim settings/plugins
 
-##How to use
+## How to use
 
 Run in shell:
 
@@ -26,7 +26,7 @@ Run in VIM:
 :Helptags
 ```
 
-##Many thanks to
+## Many thanks to
 
 - Tomas Restrepo for [molokai](https://github.com/tomasr/molokai)
 - Bailey Ling for [vim-airline](https://github.com/vim-airline/vim-airline)
@@ -36,3 +36,4 @@ Run in VIM:
 - F. Gabriel Gosselin and Simen Owesen-Lein for [vim-twig](https://github.com/lumiliet/vim-twig)
 - Martin Grenfell for [syntastic](https://github.com/scrooloose/syntastic.git), [nerdtree](https://github.com/scrooloose/nerdtree)
 - Kien Nguyen and others for [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+- Martin d'Anjou for [Jenkinsfile-vim-syntax](https://github.com/martinda/Jenkinsfile-vim-syntax)
